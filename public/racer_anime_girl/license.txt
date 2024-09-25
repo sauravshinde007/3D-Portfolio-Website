@@ -1,0 +1,11 @@
+Model Information:
+* title:	Racer Anime Girl
+* source:	https://sketchfab.com/3d-models/racer-anime-girl-831db04e907847b092e5f2712b7bf6c2
+* author:	OneWayRoad (https://sketchfab.com/OneWayRoad)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Racer Anime Girl" (https://sketchfab.com/3d-models/racer-anime-girl-831db04e907847b092e5f2712b7bf6c2) by OneWayRoad (https://sketchfab.com/OneWayRoad) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
