@@ -16,6 +16,19 @@ import {
     rewind,
     stickytanks,
     threejs,
+    unity,
+    love2d,
+    cpp,
+    csharp,
+    python,
+    java,
+    blender,
+    mysql,
+    lua,
+    godot,
+    photo,
+    pr,
+    bootstrap
   } from "../assets";
   
   export const navLinks = [
@@ -55,23 +68,39 @@ import {
   const technologies = [
     {
       name: "Unity",
-      icon: figma,
+      icon: unity,
+    },
+    {
+      name: "Godot",
+      icon: godot,
     },
     {
       name: "Blender",
-      icon: figma,
+      icon: blender,
     },
     {
       name: "LOVE2D",
-      icon: figma,
+      icon: love2d,
+    },
+    {
+      name: "lua",
+      icon: lua,
     },
     {
       name: "C++",
-      icon: figma,
+      icon: cpp,
+    },
+    {
+      name:"C#",
+      icon:csharp,
+    },
+    {
+      name:"Java",
+      icon: java
     },
     {
       name: "Python",
-      icon: figma,
+      icon: python,
     },
     {
       name: "HTML",
@@ -94,6 +123,10 @@ import {
       icon: tailwind,
     },
     {
+      name: "Bootstrap",
+      icon: bootstrap,
+    },
+    {
       name: "Node JS",
       icon: nodejs,
     },
@@ -103,7 +136,7 @@ import {
     },
     {
       name: "MySQL",
-      icon: figma,
+      icon: mysql,
     },
     {
       name: "Three JS",
@@ -112,7 +145,19 @@ import {
     {
       name: "git",
       icon: git,
-    }
+    },
+    {
+      name: "figma",
+      icon: figma,
+    },
+    {
+      name: "Photoshop",
+      icon: photo,
+    },
+    {
+      name: "Premier Pro",
+      icon: pr,
+    },
   ];
   
   const experiences = [
@@ -128,45 +173,7 @@ import {
         "Coordinated and managed project timelines, ensuring milestones were met.",
       ],
     },
-    // {
-    //   title: "React Native Developer",
-    //   company_name: "Tesla",
-    //   icon: tesla,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2021 - Feb 2022",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "Web Developer",
-    //   company_name: "Shopify",
-    //   icon: shopify,
-    //   iconBg: "#383E56",
-    //   date: "Jan 2022 - Jan 2023",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+    
   ];
   
   const projects = [
@@ -206,28 +213,6 @@ import {
       source_code_link: "https://github.com/kshitijaucharmal/StickyTanks",
       live_project_link:"https://sauravshinde007.itch.io/sticky-tanks",
     },
-    // {
-    //   name: "Trip Guide",
-    //   description:
-    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    //   tags: [
-    //     {
-    //       name: "nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "supabase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/",
-    //   live_project_link:"",
-    // },
   ];
   
   export { services, technologies, experiences, projects};

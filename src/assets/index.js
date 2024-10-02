@@ -21,6 +21,20 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
+import unity from "./tech/unity.png";
+import blender from "./tech/blender.png";
+import love2d from "./tech/love2d.png";
+import cpp from "./tech/c++.png";
+import csharp from "./tech/csharp.png";
+import python from "./tech/python.png";
+import java from "./tech/java.png";
+import mysql from "./tech/mysql.png";
+import godot from "./tech/godot.png";
+import lua from "./tech/Lua.png";
+import photo from "./tech/photoshop.png";
+import pr from "./tech/premierpro.png";
+import bootstrap from "./tech/bootstrap.png";
+
 
 // Companies
 import gdu from "./company/gdu.png";
@@ -53,4 +67,17 @@ export {
   gdu,
   rewind,
   stickytanks,
+  unity,
+  blender,
+  cpp,
+  csharp,
+  python,
+  java,
+  love2d,
+  mysql,
+  godot,
+  lua,
+  photo,
+  pr,
+  bootstrap
 };

@@ -1,18 +1,18 @@
-import { Suspense } from "react";
+import { Suspense,useMemo } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
 const Earth = () => {
-  const ship = useGLTF('./one_piece_-going_merry/scene.gltf')
+  const ship = useMemo(()=>useGLTF('./planet/scene.gltf'),[]);
   return(
     <mesh>
       <hemisphereLight intensity={1.5} groundColor="black" />
       <primitive 
         object={ship.scene}
-        scale={0.5}
-        position={[0,-1.5,0]}
+        scale={1}
+        position={[0,0,0]}
         rotation-y={0} 
     />
     </mesh>
@@ -24,7 +24,7 @@ const EarthCanvas = () => {
     <Canvas
       shadows
       frameloop="demand"
-      gl={{preserveDrawingBuffer: true}}
+      gl={{antialias: false, preserveDrawingBuffer: true}}
       camera={{ position: [20, 1, 5], fov: 10 }}
     >
       <Suspense fallback={<CanvasLoader />}>

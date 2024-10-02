@@ -1,0 +1,11 @@
+Model Information:
+* title:	LAPTOP
+* source:	https://sketchfab.com/3d-models/laptop-dc3daa4c867a4582b6aaeeb484ca7bf4
+* author:	VISIONNEW (https://sketchfab.com/VISIONNEW)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "LAPTOP" (https://sketchfab.com/3d-models/laptop-dc3daa4c867a4582b6aaeeb484ca7bf4) by VISIONNEW (https://sketchfab.com/VISIONNEW) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

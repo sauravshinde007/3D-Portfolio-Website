@@ -1,11 +1,12 @@
-import { Suspense, useEffect, useState } from "react";
+import { Suspense, useEffect,useMemo, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from '../Loader';
 
 const Anime = ({isMobile}) => {
-  const gaming_setup = useGLTF('./desktop_pc/scene.gltf');
+  //memo for static assets
+  const gaming_setup = useMemo(() => useGLTF('./gaming_setup/scene.gltf'),[]);
 
   return (
     <mesh>
@@ -13,15 +14,15 @@ const Anime = ({isMobile}) => {
       <hemisphereLight intensity={1} groundColor="black" />
       <pointLight intensity={1} />
       <spotLight 
-        position={[-20, 50, 10]}
+        position={[-20, 10, 10]}
         angle={0.12}
         penumbra={1}
       />
       <primitive 
         object={gaming_setup.scene}
         scale={isMobile ? 0.3 : 0.5}
-        position={isMobile ? [0,-2,-0.5] : [0,-2,-1]}
-        rotation={[-0.01, -0.15, -0.1]} 
+        position={isMobile ? [1,-2,-0.2] : [2,-2,0]}
+        rotation={[0, -0.2, -0.15]} 
       /> 
     </mesh>
   )
@@ -51,10 +52,10 @@ const PCCanvas = () => {
       // Disable shadows for performance improvement
       shadows={false}
       // Set to frameloop "always" to ensure smooth rendering
-      frameloop="always"
+      frameloop="demand"
       camera={{ position: [20, 2, 5], fov: 20 }}
       // Disable antialiasing for performance gain
-      gl={{ preserveDrawingBuffer: true }}
+      gl={{ antialias: false ,preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls 
