@@ -33,15 +33,17 @@ The primary goal of this project is to present my work in a modern, interactive 
    npm start
    npm run dev
 
-Usage
-Navbar: Use the navigation bar to smoothly scroll between sections like About, Projects, Experience, and Contact.
-3D Visuals: Explore the 3D elements and animations as you scroll and interact with different sections.
-Work Experience: View the timeline in the 'Experience' section for details about my professional journey.
-Project Section: Click on any project card to view the GitHub repository or details about the project.
-Contact Form: Use the form in the Contact section to send me a message.
 
-Future Enhancements
-Blog Section: Add a blog where I share technical tutorials and personal experiences.
-More 3D Interactions: Add more interactive 3D models for a more immersive experience.
-Dark Mode: Implement a dark/light mode toggle for improved user experience.
-Project Filters: Add filters to sort and view projects based on categories or technologies 
+## Usage
+- **Navbar**: Use the navigation bar to smoothly scroll between sections like About, Projects, Experience, and Contact.
+- **3D Visuals**: Explore the 3D elements and animations as you scroll and interact with different sections.
+- **Work Experience**: View the timeline in the 'Experience' section for details about my professional journey.
+- **Project Section**: Click on any project card to view the GitHub repository or details about the project.
+- **Contact Form**: Use the form in the Contact section to send me a message.
+
+## Future Enhancements
+- **Blog Section**: Add a blog where I share technical tutorials and personal experiences.
+- **More 3D Interactions**: Add more interactive 3D models for a more immersive experience.
+- **Dark Mode**: Implement a dark/light mode toggle for improved user experience.
+- **Project Filters**: Add filters to sort and view projects based on categories or technologies used.
+
