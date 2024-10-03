@@ -42,10 +42,9 @@ const About = () => {
         variants={fadeIn("","",0.1,1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm skilled Software Developer with experience in C++, C# and Javascript
+        I am a Information Technology Undergraduate at Pune Institute Of Computer Technology with keen interest in Software development and experience in C++, C# and Javascript
         and expertise in framworks like React, Node.js, Three.js. I'm also a Game Developer
-        making interactive experiences in both Game and Web Apps. I collaborate with clients
-        to create efficient, scalable solutions. Let's work together to bring ideas to life ! 
+        making interactive experiences in both Games and Web Apps. Let's work together to bring ideas to life ! 
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

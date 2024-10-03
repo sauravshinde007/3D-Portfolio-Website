@@ -14,6 +14,7 @@ import {
     figma,
     gdu,
     rewind,
+    portfolio,
     stickytanks,
     threejs,
     unity,
@@ -211,6 +212,32 @@ import {
       ],
       image: stickytanks,
       source_code_link: "https://github.com/kshitijaucharmal/StickyTanks",
+      live_project_link:"https://sauravshinde007.itch.io/sticky-tanks",
+    },
+    {
+      name: "3D Portfolio Website",
+      description:
+        "A personal portfolio website developed using React and ThreeJS. It showcases my skills and projects in a visually appealing manner, leveraging 3D visuals, animations, and transitions",
+      tags: [
+        {
+          name: "ReactJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ThreeJS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "EmailJS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Blender",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/sauravshinde007/3D-Portfolio-Website.git",
       live_project_link:"https://sauravshinde007.itch.io/sticky-tanks",
     },
   ];

@@ -42,6 +42,7 @@ import gdu from "./company/gdu.png";
 //Projects
 import rewind from "./rewind.png";
 import stickytanks from "./stickytanks.png";
+import portfolio from "./portfolio.png";
 
 export {
   logo,
@@ -67,6 +68,7 @@ export {
   gdu,
   rewind,
   stickytanks,
+  portfolio,
   unity,
   blender,
   cpp,
