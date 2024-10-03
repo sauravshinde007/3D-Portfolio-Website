@@ -43,6 +43,11 @@ import gdu from "./company/gdu.png";
 import rewind from "./rewind.png";
 import stickytanks from "./stickytanks.png";
 import portfolio from "./portfolio.png";
+import swampmaster from "./swampmaster.png";
+import bugs from "./bugs.png";
+
+//my photo
+import saurav from "./saurav.png";
 
 export {
   logo,
@@ -81,5 +86,8 @@ export {
   lua,
   photo,
   pr,
-  bootstrap
+  bootstrap,
+  saurav,
+  swampmaster,
+  bugs
 };

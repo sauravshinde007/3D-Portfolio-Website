@@ -21,7 +21,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop
           </p>
-          <p className={`${styles.sectionHeadText} mt-2`} >
+          <p className={`${styles.sectionHeadText}`} >
             {/* Typewriter effect */}
             <span style={{ color: '#915eff', fontWeight: 'bold' }}>
               <Typewriter

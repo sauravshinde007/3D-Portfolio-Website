@@ -29,7 +29,9 @@ import {
     godot,
     photo,
     pr,
-    bootstrap
+    bootstrap,
+    swampmaster,
+    bugs
   } from "../assets";
   
   export const navLinks = [
@@ -213,6 +215,42 @@ import {
       image: stickytanks,
       source_code_link: "https://github.com/kshitijaucharmal/StickyTanks",
       live_project_link:"https://sauravshinde007.itch.io/sticky-tanks",
+    },
+    {
+      name: "Swamp Master",
+      description:
+        "A 2D platformer multiplayer game, where your only goal is to be the last one standing. Game made in Unity using Photon Library.",
+      tags: [
+        {
+          name: "CSharp",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Unity",
+          color: "green-text-gradient",
+        },
+      ],
+      image: swampmaster,
+      source_code_link: "https://github.com/sauravshinde007/PlayBrutal-GameJam.git",
+      live_project_link:"https://sauravshinde007.itch.io/swamp-master",
+    },
+    {
+      name: "BUGS",
+      description:
+        "A 2D platformer puzzle game, where your want to escape from your Windows 7 computer and delete the virus. Game is made in Defold Engine using LUA.",
+      tags: [
+        {
+          name: "Defold",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "LUA",
+          color: "green-text-gradient",
+        },
+      ],
+      image: bugs,
+      source_code_link: "",
+      live_project_link:"https://sauravshinde007.itch.io/bugs",
     },
     {
       name: "3D Portfolio Website",
