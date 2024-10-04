@@ -7,6 +7,9 @@ This project is a personal portfolio website developed using React and React Rou
 
 The primary goal of this project is to present my work in a modern, interactive format while keeping the user experience intuitive and responsive across devices.
 
+## Live Demo
+Check out the live version of the portfolio [here](https://saurav-portfolio-three.vercel.app/).
+
 ## Features
 - **3D Visuals**: Engaging 3D elements and animations created using Three.js.
 - **Responsive Design**: Optimized for both desktop and mobile devices with smooth transitions.
