@@ -25,7 +25,7 @@ const Hero = () => {
             {/* Typewriter effect */}
             <span style={{ color: '#915eff', fontWeight: 'bold' }}>
               <Typewriter
-                words={['Games', 'Web Apps', '3D Models']}
+                words={['Games', 'Web Apps', '3D Models','Videos']}
                 loop={true}
                 cursor
                 cursorStyle='|'
