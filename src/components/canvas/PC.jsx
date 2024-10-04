@@ -21,7 +21,7 @@ const Anime = ({ isMobile }) => {
       <primitive
         object={gaming_setup.scene}
         scale={isMobile ? 0.3 : 0.5}
-        position={isMobile ? [1, -2, -0.2] : [2, -2, 0]}
+        position={isMobile ? [1, -3, -0.2] : [2, -2, 0]}
         rotation={[0, -0.2, -0.15]}
       />
     </mesh>
@@ -47,6 +47,14 @@ const PCCanvas = () => {
   }, []);
 
   return (
+    <div
+    style={{
+      width: isMobile ? '600px' : '900px', // Different width for mobile and desktop
+      height: isMobile ? '600px' : '900px', // Different height for mobile and desktop
+      margin: 'auto',
+      maxWidth: '100%', // Ensures canvas doesn't overflow on smaller screens
+    }}
+  >
     <Canvas
       frameloop="demand"
       dpr={isMobile ? [1, 1.5] : [1, 2]} // Adjust DPR for mobile devices
@@ -65,6 +73,7 @@ const PCCanvas = () => {
 
       <Preload all />
     </Canvas>
+  </div>
   );
 };
 
