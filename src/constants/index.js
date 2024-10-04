@@ -276,7 +276,7 @@ import {
       ],
       image: portfolio,
       source_code_link: "https://github.com/sauravshinde007/3D-Portfolio-Website.git",
-      live_project_link:"https://sauravshinde007.itch.io/sticky-tanks",
+      live_project_link:"",
     },
   ];
   
