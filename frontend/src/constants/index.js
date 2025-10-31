@@ -33,7 +33,16 @@ import {
     omni,
     midori,
     pisheti,
-    healtrack
+    healtrack,
+    ncl,
+    java,
+    git,
+    figma,
+    docker,
+    kubernetes,
+    phaser,
+    chromaglitch,
+    bunty
   } from "../assets";
   
   export const navLinks = [
@@ -72,26 +81,6 @@ import {
   
   const technologies = [
     {
-      name: "Unity",
-      icon: unity,
-    },
-    {
-      name: "Godot",
-      icon: godot,
-    },
-    {
-      name: "Blender",
-      icon: blender,
-    },
-    {
-      name: "LOVE2D",
-      icon: love2d,
-    },
-    {
-      name: "lua",
-      icon: lua,
-    },
-    {
       name: "C++",
       icon: cpp,
     },
@@ -104,12 +93,8 @@ import {
       icon: python,
     },
     {
-      name: "HTML",
-      icon: html,
-    },
-    {
-      name: "CSS",
-      icon: css,
+      name: "Java",
+      icon: java,
     },
     {
       name: "JavaScript",
@@ -120,16 +105,16 @@ import {
       icon: reactjs,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Bootstrap",
-      icon: bootstrap,
-    },
-    {
       name: "Node JS",
       icon: nodejs,
+    },
+    {
+      name: "Three JS",
+      icon: threejs,
+    },
+    {
+      name: "Phaser JS",
+      icon: phaser,
     },
     {
       name: "MongoDB",
@@ -140,20 +125,47 @@ import {
       icon: mysql,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Docker",
+      icon: docker,
     },
     {
-      name: "Photoshop",
-      icon: photo,
+      name: "Kubernetes",
+      icon: kubernetes,
     },
     {
-      name: "Premier Pro",
-      icon: pr,
+      name: "Unity",
+      icon: unity,
     },
+    {
+      name: "Blender",
+      icon: blender,
+    },
+    {
+      name: "Figma",
+      icon: figma,
+    },
+    // {
+    //   name: "Photoshop",
+    //   icon: photo,
+    // },
+    // {
+    //   name: "Premier Pro",
+    //   icon: pr,
+    // },
   ];
   
   const experiences = [
+    {
+      title: "Game Development Intern",
+      company_name: "CSIR- National Chemical Laboratory",
+      icon: ncl,
+      iconBg: "#383E56",
+      date: "Feb 2025 - May 2025",
+      points: [
+        "Developed an interactive periodic table card game in Unity, improving engagement for students by gamifying element-property learning.",
+        "Conducted usability testing with 40+ students and iteratively refined game mechanics based on feedback.",
+      ],
+    },
     {
       title: "Technical Head",
       company_name: "GameDevUtopia PICT",
@@ -166,7 +178,6 @@ import {
         "Coordinated and managed project timelines, ensuring milestones were met.",
       ],
     },
-    
   ];
   
   const projects = [
@@ -240,6 +251,70 @@ import {
 
   const games = [
     {
+      name: "OMNIDASH",
+      description:
+        "Definately not a ripoff of KARLSON",
+      tags: [
+        {
+          name: "CSharp",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Unity",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Blender",
+          color: "blue-text-gradient",
+        },
+        
+      ],
+      image: omni,
+      source_code_link: "https://github.com/sauravshinde007/OMNIDASH",
+      live_project_link:"https://saurav-san007.itch.io/omnidash",
+    },
+    {
+      name: "Chroma Glitch",
+      description:
+        "A rouge like top down shooter game like HADES",
+      tags: [
+        {
+          name: "CSharp",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Unity",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Blender",
+          color: "blue-text-gradient",
+        },
+        
+      ],
+      image: chromaglitch,
+      source_code_link: "https://github.com/sauravshinde007/OMNIDASH",
+      live_project_link:"https://saurav-san007.itch.io/omnidash",
+    },
+    {
+      name: "Neon Fables",
+      description:
+        "A sidescroller detective game where you are trying to solve a mystery by talking and gathering clues.",
+      tags: [
+        {
+          name: "CSharp",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Unity",
+          color: "green-text-gradient",
+        },
+      ],
+      image: neon_fables,
+      source_code_link: "https://github.com/sauravshinde007/GameOff24",
+      live_project_link:"https://sauravshinde007.itch.io/neon-fables",
+    },
+    {
       name: "REWIND",
       description:
         "Simple Platformer Game Made in Love2D framework using LUA scripting language.",
@@ -312,45 +387,22 @@ import {
       live_project_link:"https://sauravshinde007.itch.io/bugs",
     },
     {
-      name: "Neon Fables",
+      name: "Bunty ki Duniya",
       description:
-        "A sidescroller detective game where you are trying to solve a mystery by talking and gathering clues.",
+        "Bunty Ki Duniya is a relaxing, role-playing game steeped in Indian culture. You play as Bunty, a beloved member of his hostel community.",
       tags: [
         {
-          name: "CSharp",
+          name: "Defold",
           color: "blue-text-gradient",
         },
         {
-          name: "Unity",
+          name: "LUA",
           color: "green-text-gradient",
         },
       ],
-      image: neon_fables,
-      source_code_link: "https://github.com/sauravshinde007/GameOff24",
-      live_project_link:"https://sauravshinde007.itch.io/neon-fables",
-    },
-    {
-      name: "OMNIDASH",
-      description:
-        "Definately not a ripoff of KARLSON",
-      tags: [
-        {
-          name: "CSharp",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Unity",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Blender",
-          color: "blue-text-gradient",
-        },
-        
-      ],
-      image: omni,
-      source_code_link: "https://github.com/sauravshinde007/OMNIDASH",
-      live_project_link:"https://saurav-san007.itch.io/omnidash",
+      image: bunty,
+      source_code_link: "",
+      live_project_link:"https://sauravshinde007.itch.io/bugs",
     },
     {
       name: "Midori's Astro Quest",

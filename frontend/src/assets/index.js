@@ -30,10 +30,17 @@ import lua from "./tech/Lua.png";
 import photo from "./tech/photoshop.png";
 import pr from "./tech/premierpro.png";
 import bootstrap from "./tech/bootstrap.png";
+import java from "./tech/java.png";
+import git from "./tech/git.png";
+import figma from "./tech/figma.png";
+import docker from "./tech/docker.png";
+import kubernetes from "./tech/Kubernetes.png";
+import phaser from "./tech/phaser.png";
 
 
 // Companies
 import gdu from "./company/gdu.png";
+import ncl from "./company/ncl.png";
 
 //Projects
 import rewind from "./rewind.png";
@@ -47,12 +54,15 @@ import omni from "./omni.jpg";
 import midori from "./fEYnpd.png";
 import pisheti from "./pisheti.png";
 import healtrack from "./healtrack.png";
+import chromaglitch from "./chromaglitch.png";
+import bunty from "./bunty.jpg";
 
 //my photo
-import saurav from "./newSaurav-removebg-preview.png";
-import avatar from "./sauravlogo.png";
+import saurav from "./saurav3.png";
+import avatar from "./avatar2.jpg";
 
 import leetcode from "./leetcode2.png"
+import itch from "./itch.png"
 
 export {
   logo,
@@ -98,5 +108,15 @@ export {
   midori,
   pisheti,
   healtrack,
-  leetcode
+  leetcode,
+  ncl,
+  java,
+  git,
+  figma,
+  docker,
+  kubernetes,
+  phaser,
+  itch,
+  chromaglitch,
+  bunty
 };

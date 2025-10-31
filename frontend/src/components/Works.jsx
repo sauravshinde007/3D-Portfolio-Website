@@ -7,7 +7,7 @@ import { projects, games, designs } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 
-const categories = ["Projects", "Games", "Designs"];
+const categories = ["Games", "Projects", "Designs"];
 
 const ProjectCard = ({
   index,
@@ -124,7 +124,7 @@ const DesignCard = ({ title, videoSrc }) => {
 };
 
 const Works = () => {
-  const [activeCategory, setActiveCategory] = useState("Projects");
+  const [activeCategory, setActiveCategory] = useState("Games");
 
   let dataToShow = [];
   if (activeCategory === "Projects") dataToShow = projects;
